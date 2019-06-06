@@ -1,0 +1,95 @@
+.login-container{
+	text-align: center;
+}
+.login-container .form-control:focus{
+	box-shadow: none;
+	border-color: #ced4da;
+}
+.login-container .form-control{
+	padding: 30px;
+}
+
+.login-container .number{
+margin-bottom: 0;
+}
+.login-container .input-group-text{
+	background: none;
+}
+.login-container .number .input-group-text{
+border-radius: 8px 0 0 0 ;
+}
+.login-container .password .input-group-text{
+border-radius: 0 0 0 8px ;
+}
+.login-container .mobile{
+	border-radius: 0px 8px 0  0;
+	border-bottom: 0
+
+}
+.login-container .password{
+	border-radius: 0  0 8px 0px ;
+}
+.btn-signin{
+	background: #ff5043;
+	border:0;
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px 50px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+@media only screen and (max-width: 767px) {
+	.btn-signin{
+		margin-bottom: 50px;
+	}
+	.login-container p{
+		font-size: 14px;
+		padding-top: 15px;
+	}
+}
+.login-center-wrap{
+	height: 150px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+form{
+	margin-top: 80px;
+}
+.alert-danger{
+	font-size: 13px;
+}
+.forgot-password{
+	font-size: 15px;
+    color: #1251a8 !important;
+    cursor: pointer;
+}
+.remember{
+	font-size: 15px;
+    color: #1251a8 !important;
+    cursor: pointer;
+    position: relative;
+}
+.remember input{
+	width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 35px;
+}
+.reset-pass{
+	text-align: center;
+
+}
+.reset-pass p{
+	margin-bottom: 30px;
+}
+.reset{padding: 15px 0; font-size: 13px;background: #ff5043; color: #fff;
+	margin-top: 15px; display: inline-block;width: 100%;
+ text-align: center;}
+ .reset:hover{
+ 	text-decoration: none;
+ }

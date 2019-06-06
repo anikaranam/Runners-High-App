@@ -1,0 +1,253 @@
+
+.attend{
+	width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 14px;
+    background: #404041;
+    color: #fff;
+    position: absolute;
+    right: 45px;
+    top: 29px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+.notification{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 14px;
+    background: #404041;
+    color: #fff;
+    position: absolute;
+    right: 145px;
+    top: 29px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+    font-family: 'Nunito', sans-serif;
+    z-index: 1000;
+}
+
+.header-font {
+    text-align: center;   
+}
+
+p {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+/*.notification{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 14px;
+    background:url("../../assets/images/notification.png") no-repeat;
+    background-size: 55px;
+    color: #fff;
+    position: absolute;
+    right: 140px;
+    top: 18px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif; 
+   
+
+}
+.notification span{
+    background: #28a745;
+    border-radius: 50px;
+    position: absolute;
+    color: #fff;
+    top: 6px;
+    left: 30px;
+    padding: 2px 11px;
+    cursor: pointer;
+}*/
+@media only screen and (max-width: 767px) {
+	.attend{
+		width: 54px;
+    height: 54px;
+    right: 10px;
+    top: 14px;
+    line-height: 17px;
+    font-size: 10px;
+    top:15px !important;
+	}
+    .notification{
+        width: 60px;
+    height: 54px;
+    right: 65px;
+    top: 14px;
+    line-height: 17px;
+    font-size: 10px;
+    padding: 0 14px 14px;
+    top:15px !important;
+}
+}
+@media only screen and (max-width: 991px) {
+    .notification, .attend{
+        top:0px;
+    }
+
+
+
+}
+
+
+.nav-strip p{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+}
+@media only screen and (max-width: 767px) {
+    .nav-strip p{
+        font-size: 16px;
+    }
+}
+.bck-wrap{
+    position: relative;
+}
+.bck{
+    color: #fff !important;
+    background: #444242;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer !important;
+    position: absolute;
+    left: 25px;
+    z-index: 100;
+}
+
+.container
+{
+    padding: 0 ;
+}
+.footer-nav .nav .icon{
+    text-align: center;
+    margin: 0 auto;
+    color: #ababab;
+    font-weight: 600;
+}
+.footer-nav .nav .icon p{
+    padding-top: 30px;
+    margin: 0;
+    line-height: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+    .footer-nav .nav .icon p{
+        font-size: 12px;
+        padding-top: 18px;
+        padding-bottom: 2px;
+    }
+    .bck{
+          padding: 10px 20px;
+          left: 2px;
+    }
+}
+.footer-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-nav ul li{
+    padding: 20px 0;
+    border-right: 1px solid #b9b9b9;
+}
+.footer-nav ul li:last-child{
+    border:0;
+}
+
+.footer-nav ul li:hover{
+    background: url("./assets/images/header-runner.jpg");
+    cursor: pointer;
+
+}
+.footer-nav ul li.active{
+    background: url("./assets/images/header-runner.jpg");
+    cursor: pointer;
+}
+.footer-nav ul li a{
+    margin: 0 auto;
+}
+.footer-nav ul li a:hover{
+    text-decoration: none;
+}
+.icon-img{
+
+height: 42px;
+width: 42px;
+margin: 0 auto;
+}
+
+.footer-nav ul li:hover .icon p{
+    color: #fff;
+
+}
+.footer-nav ul li.active .icon p{
+    color: #fff;
+
+}
+.ptn{
+    background: url("./assets/images/even-bg.jpg") center; 
+        height: 50px;
+}
+
+.schedule{ 
+    background: url("./assets/images/schedule.png");
+    }
+.profile{ 
+    background: url("./assets/images/profile.png");
+    }
+.calender{ 
+    background: url("./assets/images/calender.png");
+    }
+.lagout{ 
+    background: url("./assets/images/logout.png");
+    }
+
+.footer-nav ul li:hover .schedule{
+    background: url("./assets/images/schedule.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li:hover .profile{
+    background: url("./assets/images/profile.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li:hover .calender{
+    background: url("./assets/images/calender.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li:hover .lagout{
+    background: url("./assets/images/logout.png");
+    background-position: 42px -42px;
+}
+
+
+.footer-nav ul li.active .schedule{
+    background: url("./assets/images/schedule.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li.active .profile{
+    background: url("./assets/images/profile.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li.active .calender{
+    background: url("./assets/images/calender.png");
+    background-position: 42px -42px;
+}
+.footer-nav ul li.active .lagout{
+    background: url("./assets/images/logout.png");
+    background-position: 42px -42px;
+}
